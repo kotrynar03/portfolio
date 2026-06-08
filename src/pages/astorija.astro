@@ -15,7 +15,7 @@ import MenuController from "../scripts/menu.jsx";
 <header class="px-10 pt-10 bg-[#F7F4EB] max-w-[100vw]   ">
     <MenuController client:load />
      <nav class=" flex justify-between items-center overflow-hidden">
-        <a href="/" transition:animate="none"><div class="flex gap-4 ">
+        <a href=./" transition:animate="none"><div class="flex gap-4 ">
              <img class=" w-[2.6rem] md:w-[4rem] " src="./assets/kr_mark.svg" alt="KR logo mark">
              <div class="flex flex-col justify-center">
                  <p  class="font-[Gambetta] uppercase  text-[18px]/6 md:text-[24px]/8 line">Kotryna</p>
@@ -48,7 +48,7 @@ import MenuController from "../scripts/menu.jsx";
        </div>
        
     </nav>
-   <div transition:name="astorija"   class="z-0 mt-10 bg-[url(/assets/Astorija_cover.avif)] rounded-[20px] md:h-[80vh] h-100 bg-cover bg-center ">
+   <div transition:name="astorija"   class="z-0 mt-10 bg-[url(./assets/Astorija_cover.avif)] rounded-[20px] md:h-[80vh] h-100 bg-cover bg-center ">
     <div onclick="history.go(-1)" class=" md:pt-10 md:pl-10 pt-6 pl-6  hover:-translate-x-2 hover:transition-all hover:duration-500 hover:ease-in-out">
         <svg class=" w-[4.5rem] xs:w-auto " width="79" height="40" viewBox="0 0 79 40" fill="none" xmlns="http://www.w3.org/2000/svg">
        <rect x="0.7" y="0.7" width="77.6" height="38.6" rx="19.3" stroke="#F7F4EB" stroke-width="1.4" fill="none"/>
@@ -110,7 +110,14 @@ import MenuController from "../scripts/menu.jsx";
       
             
                 
-        <div class=" flex flex-row items-center  justify-end items-center pb-40">
+        <div class="flex flex-row sm:justify-between justify-end pb-40">
+            <a  class="prev_button  hidden sm:block  sm:flex sm:flex-row md:gap-4 gap-2 justify-center items-center" href="./engineering">
+                <svg class="prev_arrow md:w-auto w-[3.5rem]" width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M69.7246 38.0601C70.2323 34.7862 62.9175 30.8253 52.4663 28.3188C59.3647 21.9288 63.1392 15.9478 61.3476 13.4976C59.3922 10.8241 51.4216 13.1942 42.2615 18.8095C42.6202 9.41573 41.0604 2.51994 38.0616 2.05416C34.7879 1.54589 30.827 8.86008 28.3205 19.3105C21.9306 12.4123 15.9506 8.63704 13.5003 10.4283C10.8261 12.3837 13.196 20.3566 18.8129 29.5184C9.4176 29.1592 2.52029 30.7189 2.05464 33.7181C1.54701 36.9914 8.85907 40.9524 19.3071 43.459C12.4113 49.8476 8.63772 55.8258 10.429 58.2755C12.385 60.9495 20.3595 58.5791 29.5221 52.9611C29.1622 62.359 30.7218 69.2585 33.7216 69.7242C36.995 70.2318 40.9561 62.9189 43.4626 52.4698C49.8509 59.3654 55.829 63.1384 58.2791 61.3479C60.953 59.3927 58.5838 51.4214 52.9682 42.2609C62.3628 42.6198 69.259 41.0591 69.7246 38.0601Z" fill="#1D1D1D"/>
+                <path d="M51.3911 35.5459C51.3923 35.4137 51.3537 35.2718 51.2642 35.1582C51.1943 35.0696 51.0973 35.0033 50.979 34.9736L50.853 34.957H50.8511L24.9126 34.4961L29.8579 31.4473C30.2208 31.2365 30.2717 30.8489 30.1245 30.5713C30.0522 30.4349 29.9301 30.3198 29.772 30.2646C29.6105 30.2084 29.426 30.2197 29.2446 30.3105L29.2456 30.3115L20.9409 34.0225L20.937 34.0244C20.6851 34.1441 20.4361 34.2621 20.2612 34.4453C20.0727 34.643 19.9855 34.8973 19.9927 35.251H19.9917L19.9927 35.252L19.9917 35.2549H19.9927C19.9946 35.8943 20.4384 36.2331 20.9019 36.4736L20.9067 36.4756L29.2612 40.5625L29.2622 40.5615C29.6094 40.7344 29.9313 40.5556 30.0767 40.3145C30.1499 40.1929 30.189 40.042 30.1646 39.8906C30.1395 39.7363 30.0495 39.5969 29.896 39.502V39.501L24.9136 36.2061L50.8481 36.1104C51.0199 36.1137 51.1613 36.0425 51.2563 35.9287C51.3483 35.8184 51.3899 35.6778 51.3911 35.5459Z" fill="#F7F4EB" stroke="#F7F4EB" stroke-width="0.4"/>
+                </svg>
+                <p class="next_name font-[Gambetta] text-[#1D1D1D]   md:text-[24px] text-[20px] font-medium"> Wix Engineering </p>
+            </a>     
             <a  class="next_button flex flex-row md:gap-4 gap-2 justify-center items-center" href="../silelis">
             <p class="next_name font-[Gambetta] text-[#1D1D1D]  md:text-[24px] text-[20px] font-medium"> Vila &#352;ilelis </p>
             <svg class="next_arrow md:w-auto w-[3.5rem]" width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -135,7 +142,7 @@ import MenuController from "../scripts/menu.jsx";
         </div>
         <p class="text-[#F7F4EB] font-[Gambetta] font-light italic md:text-[26px]/8 xs:text-[18px]/6 text-center ">currently looking for opportunities <br> to grow within a design team</p>
         <div class="flex flex-row gap-4 w-full justify-center pt-8  ">
-            <a href="./assets/Kotryna_Rackute-resume.pdf" target="_blank"><div class=" border border-[#F7F4EB] hover:border-[#BCC2F4]  border-[1.6px] md:w-[10rem] w-[7rem] md:h-[3.4rem] h-[2.6rem] rounded-[30px] hover:bg-[#BCC2F4] transition-all duration-400 text-[#F7F4EB] hover:text-[#1D1D1D] font-[Gambetta] md:text-[18px] text-[14px] italic font-light flex justify-center items-center ">view&nbsp; <span class="uppercase font-semibold">  resume</span></div></a>
+            <a href="./assets/Kotryna_Rackute_resume.pdf" target="_blank"><div class=" border border-[#F7F4EB] hover:border-[#BCC2F4]  border-[1.6px] md:w-[10rem] w-[7rem] md:h-[3.4rem] h-[2.6rem] rounded-[30px] hover:bg-[#BCC2F4] transition-all duration-400 text-[#F7F4EB] hover:text-[#1D1D1D] font-[Gambetta] md:text-[18px] text-[14px] italic font-light flex justify-center items-center ">view&nbsp; <span class="uppercase font-semibold">  resume</span></div></a>
              <!-- <a href="mailto:rackotryna941@gmail.com"  class=" border border-[#F7F4EB] border-[1.6px] hover:border-[#F8BAD1] hover:bg-[#F8BAD1] hover:text-[#1D1D1D] md:w-[10rem] w-[7rem] md:h-[3.4rem] h-[2.6rem] transition-all duration-500  rounded-[30px] text-[#F7F4EB] font-[Gambetta] md:text-[18px] text-[14px]  italic font-light flex justify-center items-center"> <span class="uppercase font-semibold">email &nbsp;</span> me</a> -->
             
              <form onsubmit="window.location='mailto:rackotryna941@gmail.com'; return false;" class="md:w-[10rem] w-[7rem] md:h-[3.4rem] h-[2.6rem] flex">
