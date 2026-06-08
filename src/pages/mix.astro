@@ -8,14 +8,14 @@ import MenuController from "../scripts/menu.jsx";
   <head>
      <meta charset="utf-8 " name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mix Box</title>
-       <link rel="icon" type="image/x-icon" href="./assets/kr_letters.ico"/>
+       <link rel="icon" type="image/x-icon" href="../assets/kr_letters.ico"/>
     <ViewTransitions/>
   </head>
 <header class="px-10 pt-10 bg-[#F7F4EB] overflow-hidden ">
      <MenuController client:load />
     <nav class=" flex justify-between items-center ">
-        <a href="/" transition:animate="none"><div class="flex gap-4 ">
-             <img class=" w-[2.6rem] md:w-[4rem] " src="./assets/kr_mark.svg" alt="KR logo mark">
+        <a href="../" transition:animate="none"><div class="flex gap-4 ">
+             <img class=" w-[2.6rem] md:w-[4rem] " src="../assets/kr_mark.svg" alt="KR logo mark">
              <div class="flex flex-col justify-center">
                  <p  class="font-[Gambetta] uppercase  text-[18px]/6 md:text-[24px]/8 line">Kotryna</p>
                  <p  class="font-[Gambetta] italic  text-[18px]/4 md:text-[24px]/4">Ra&#269kut&#279</p>
@@ -39,8 +39,8 @@ import MenuController from "../scripts/menu.jsx";
             </svg>
 
          <ul class=" h-[80%]  flex flex-col gap-4 items-center justify-center  text-[#F7F4EB]">
-            <a  href="/#projects" class="hover:text-[#FFFFCD] hover:-translate-y-4 hover:transition-all hover:duration-500 hover:ease-in-out px-2 py-2"><li class="font-[Gambetta] italic   text-[24px] font-normal self-center link_1 "> my <span class="not-italic uppercase"> work</span> </li></a>
-            <a  href="/#about" class="hover:text-[#F8BAD1] hover:-translate-y-4 hover:transition-all hover:duration-500 hover:ease-in-out px-2 py-2"><li class="font-[Gambetta] italic  text-[24px] font-normal self-center link_2"> <span  class="not-italic uppercase"> about</span> me </li></a>
+            <a  href="../#projects" class="hover:text-[#FFFFCD] hover:-translate-y-4 hover:transition-all hover:duration-500 hover:ease-in-out px-2 py-2"><li class="font-[Gambetta] italic   text-[24px] font-normal self-center link_1 "> my <span class="not-italic uppercase"> work</span> </li></a>
+            <a  href="../#about" class="hover:text-[#F8BAD1] hover:-translate-y-4 hover:transition-all hover:duration-500 hover:ease-in-out px-2 py-2"><li class="font-[Gambetta] italic  text-[24px] font-normal self-center link_2"> <span  class="not-italic uppercase"> about</span> me </li></a>
             <a  href="#connect" class="hover:text-[#BCC2F4] hover:-translate-y-4 hover:transition-all hover:duration-500 hover:ease-in-out px-2 py-2"><li class="font-[Gambetta] italic text-[24px] font-normal self-center link_3"> let's <span  class="not-italic uppercase"> connect</span> </li></a>
         </ul>
 
@@ -48,7 +48,7 @@ import MenuController from "../scripts/menu.jsx";
        
     </nav>
   <!-- Reik perdaryt coveri arba parinkt skirtingas nuotruakas pagal dydi -->
-   <div transition:name="mix" class="mt-10 bg-[url(/assets/Mix_cover.avif)] rounded-[20px] md:h-[80vh] h-100 bg-cover bg-center">
+   <div transition:name="mix" class="mt-10 bg-[url(../assets/Mix_cover.avif)] rounded-[20px] md:h-[80vh] h-100 bg-cover bg-center">
          <div onclick="history.go(-1)" class="md:pt-10 md:pl-10 pt-6 pl-6 hover:-translate-x-2 hover:transition-all hover:duration-500 hover:ease-in-out">
         <svg class=" w-[4.5rem] xs:w-auto" width="79" height="40" viewBox="0 0 79 40" fill="none" xmlns="http://www.w3.org/2000/svg">
        <rect x="0.7" y="0.7" width="77.6" height="38.6" rx="19.3" stroke="#F7F4EB" stroke-width="1.4"/>
@@ -75,8 +75,8 @@ import MenuController from "../scripts/menu.jsx";
             <p class="md:w-[38rem]">I started by designing the logo, defining the colour palette, and creating simple illustrations for use in patterns and packaging. These elements formed the basis of the visual identity which in second phase had to be applied to a cocktail delivery app. The aim was to create a unique and aesthetically pleasing interface while focusing on good user experience.</p>
         </div>
         <div class=" grid md:grid-cols-2 grid-cols-1 gap-x-10 gap-y-10 pt-14 pb-[4rem]" >
-            <img src="./assets/Mix1.avif" alt="Mix Box UI screens overview">
-            <img src="./assets/Mix2.avif" alt="Mix Box packaging">
+            <img src="../assets/Mix1.avif" alt="Mix Box UI screens overview">
+            <img src="../assets/Mix2.avif" alt="Mix Box packaging">
             <div></div>
             <div class=" felx flex-col ">
                 <h2 class=" font-[Gambetta] text-[#1D1D1D] md:text-[34px] text-[26px]  italic pb-3">project reflection:<span class=" text-[#1D1D1D40]"> why & how </span></h2>
@@ -85,8 +85,8 @@ import MenuController from "../scripts/menu.jsx";
                 <p class="lg:w-[80%]">Further down I will talk a little bit about my decisions and though process behind the branding itself, and share some more screens of the app.</p>
                 </div>
             </div>
-            <img src="./assets/Mix3.avif" alt="Mix Box Colors">
-            <img src="./assets/Mix4.avif" alt="Mix Box Fonts">
+            <img src="../assets/Mix3.avif" alt="Mix Box Colors">
+            <img src="../assets/Mix4.avif" alt="Mix Box Fonts">
             <div class=" felx flex-col ">
                 <h2 class=" font-[Gambetta] text-[#1D1D1D] md:text-[34px] text-[26px] italic pb-3"> branding <span class=" text-[#1D1D1D40]"> reasoning & decisions </span></h2>
                 <div class="font-[Gambetta] text-[#1D1D1D] md:text-[20px] text-[16px] font-regular flex flex-col gap-4 text-justify pb-40">
@@ -97,10 +97,10 @@ import MenuController from "../scripts/menu.jsx";
                 </div>
             </div>
             <div></div>
-            <img src="./assets/Mix5.avif" alt="Mix Box app UI screens">
-            <img src="./assets/Mix6.avif" alt="Mix Box logos for box types">
-            <img src="./assets/Mix7.avif" alt="Mix Box green delivery illustration">
-            <img src="./assets/Mix8.avif" alt="Mix Box play store screens">
+            <img src="../assets/Mix5.avif" alt="Mix Box app UI screens">
+            <img src="../assets/Mix6.avif" alt="Mix Box logos for box types">
+            <img src="../assets/Mix7.avif" alt="Mix Box green delivery illustration">
+            <img src="../assets/Mix8.avif" alt="Mix Box play store screens">
         </div>
       
             

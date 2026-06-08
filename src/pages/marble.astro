@@ -7,14 +7,14 @@ import MenuController from "../scripts/menu.jsx";
   <head>
      <meta charset="utf-8 " name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marble Blue</title>
-       <link rel="icon" type="image/x-icon" href="./assets/kr_letters.ico"/>
+       <link rel="icon" type="image/x-icon" href="../assets/kr_letters.ico"/>
     <ViewTransitions/>
   </head>
 <header class="px-10 pt-10 bg-[#F7F4EB]  overflow-hidden ">
      <MenuController client:load />
     <nav class=" flex justify-between items-center ">
-        <a href="/" transition:animate="none"><div class="flex gap-4 ">
-             <img class=" w-[2.6rem] md:w-[4rem] " src="./assets/kr_mark.svg" alt="KR logo mark">
+        <a href="../" transition:animate="none"><div class="flex gap-4 ">
+             <img class=" w-[2.6rem] md:w-[4rem] " src="../assets/kr_mark.svg" alt="KR logo mark">
              <div class="flex flex-col justify-center">
                  <p  class="font-[Gambetta] uppercase  text-[18px]/6 md:text-[24px]/8 line">Kotryna</p>
                  <p  class="font-[Gambetta] italic  text-[18px]/4 md:text-[24px]/4">Ra&#269kut&#279</p>
@@ -38,15 +38,15 @@ import MenuController from "../scripts/menu.jsx";
             </svg>
 
          <ul class=" h-[80%] flex flex-col gap-4 items-center justify-center  text-[#F7F4EB]">
-            <a  href="/#projects" class="hover:text-[#FFFFCD] hover:-translate-y-4 hover:transition-all hover:duration-500 hover:ease-in-out px-2 py-2"><li class="font-[Gambetta] italic   text-[24px] font-normal self-center link_1 "> my <span class="not-italic uppercase"> work</span> </li></a>
-            <a  href="/#about" class="hover:text-[#F8BAD1] hover:-translate-y-4 hover:transition-all hover:duration-500 hover:ease-in-out px-2 py-2"><li class="font-[Gambetta] italic  text-[24px] font-normal self-center link_2"> <span  class="not-italic uppercase"> about</span> me </li></a>
+            <a  href="../#projects" class="hover:text-[#FFFFCD] hover:-translate-y-4 hover:transition-all hover:duration-500 hover:ease-in-out px-2 py-2"><li class="font-[Gambetta] italic   text-[24px] font-normal self-center link_1 "> my <span class="not-italic uppercase"> work</span> </li></a>
+            <a  href="../#about" class="hover:text-[#F8BAD1] hover:-translate-y-4 hover:transition-all hover:duration-500 hover:ease-in-out px-2 py-2"><li class="font-[Gambetta] italic  text-[24px] font-normal self-center link_2"> <span  class="not-italic uppercase"> about</span> me </li></a>
             <a  href="#connect" class="hover:text-[#BCC2F4] hover:-translate-y-4 hover:transition-all hover:duration-500 hover:ease-in-out px-2 py-2"><li class="font-[Gambetta] italic text-[24px] font-normal self-center link_3"> let's <span  class="not-italic uppercase"> connect</span> </li></a>
         </ul>
 
        </div>
        
     </nav>
-   <div transition:name="marble" class="mt-10 xs:bg-[url(/assets/Marble_cover.avif)] bg-[url(/assets/Marble_cover1.avif)]   rounded-[20px] md:h-[80vh] h-100 bg-cover bg-center">
+   <div transition:name="marble" class="mt-10 xs:bg-[url(/assets/Marble_cover.avif)] bg-[url(../assets/Marble_cover1.avif)]   rounded-[20px] md:h-[80vh] h-100 bg-cover bg-center">
         <div onclick="history.go(-1)" class="md:pt-10 md:pl-10 pt-6 pl-6 hover:-translate-x-2 hover:transition-all hover:duration-500 hover:ease-in-out"><svg width="79" height="40" viewBox="0 0 79 40" fill="none" xmlns="http://www.w3.org/2000/svg">
        <rect x="0.7" y="0.7" width="77.6" height="38.6" rx="19.3" stroke="#F7F4EB" stroke-width="1.4"/>
        <path d="M54.2002 19.8848C54.2014 20.017 54.1628 20.1588 54.0732 20.2725C54.0033 20.3611 53.9063 20.4273 53.7881 20.457L53.6621 20.4736H53.6602L27.7217 20.9346L32.667 23.9834C33.0299 24.1942 33.0808 24.5817 32.9336 24.8594C32.8613 24.9957 32.7391 25.1108 32.5811 25.166C32.4195 25.2223 32.2351 25.2109 32.0537 25.1201L32.0547 25.1191L23.75 21.4082L23.7461 21.4062C23.4942 21.2866 23.2451 21.1686 23.0703 20.9854C22.8818 20.7877 22.7946 20.5333 22.8018 20.1797H22.8008L22.8018 20.1787L22.8008 20.1758H22.8018C22.8037 19.5364 23.2475 19.1975 23.7109 18.957L23.7158 18.9551L32.0703 14.8682L32.0713 14.8691C32.4184 14.6962 32.7404 14.8751 32.8857 15.1162C32.959 15.2378 32.9981 15.3887 32.9736 15.54C32.9486 15.6943 32.8586 15.8338 32.7051 15.9287V15.9297L27.7227 19.2246L53.6572 19.3203C53.829 19.317 53.9704 19.3881 54.0654 19.502C54.1574 19.6122 54.1989 19.7528 54.2002 19.8848Z" fill="#F7F4EB" stroke="#F7F4EB" stroke-width="0.4"/>
@@ -72,9 +72,9 @@ import MenuController from "../scripts/menu.jsx";
             <p class="md:w-[38rem]">The project brief was to design a logo, menu, and additional deliverables for a hotel & beach bar called Marble Blue. With no strict requirements beyond a mood board, the project offered full creative freedom &#45; allowing me to explore and experiment with visual direction, brand tone, and layout.</p>
         </div>
         <div class=" grid md:grid-cols-2 grid-cols-1 gap-x-10 gap-y-10 pt-14 pb-[4rem]" >
-            <img src="./assets/Marble1.avif" alt="Marble Blue Menu">
-            <img src="./assets/Marble2.avif" alt="Marble Blue Illustrations">
-            <img src="./assets/Marble3.avif" alt="Marble Blue Colours">
+            <img src="../assets/Marble1.avif" alt="Marble Blue Menu">
+            <img src="../assets/Marble2.avif" alt="Marble Blue Illustrations">
+            <img src="../assets/Marble3.avif" alt="Marble Blue Colours">
             <img src="./assets/Marble4.avif" alt="Marble Blue Fonts">
            
             <div class=" felx flex-col ">
@@ -87,8 +87,8 @@ import MenuController from "../scripts/menu.jsx";
             </div>
             <div></div>
             <img class="md:col-span-2" src="./assets/Marble5.avif" alt="Marble Blue alternative Logo Display">
-            <img src="./assets/Marble6.avif" alt="Marble Blue sticker design">
-            <img src="./assets/Marble7.avif" alt="Marble Blue hotel room chains">
+            <img src="../assets/Marble6.avif" alt="Marble Blue sticker design">
+            <img src="../assets/Marble7.avif" alt="Marble Blue hotel room chains">
         </div>
       
             
