@@ -13,7 +13,7 @@ import react from "@astrojs/react";
 export default defineConfig({
   site: "https://kotrynar03.github.io",
 
-  base: '/portfolio/',
+  base: '/portfolio',
   server: { port: 4321, host:true},
 
   vite: {
