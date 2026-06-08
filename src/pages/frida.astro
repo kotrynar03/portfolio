@@ -13,7 +13,7 @@ import MenuController from "../scripts/menu.jsx";
 <header class="px-10 pt-10 bg-[#F7F4EB] overflow-hidden">
      <MenuController client:load />
     <nav class=" flex justify-between items-center ">
-        <a href="./" transition:animate="none"><div class="flex gap-4 ">
+        <a href="/" transition:animate="none"><div class="flex gap-4 ">
              <img class=" w-[2.6rem] md:w-[4rem] " src="./assets/kr_mark.svg" alt="KR logo mark">
              <div class="flex flex-col justify-center">
                  <p  class="font-[Gambetta] uppercase  text-[18px]/6 md:text-[24px]/8 line">Kotryna</p>
@@ -46,7 +46,7 @@ import MenuController from "../scripts/menu.jsx";
        </div>
        
     </nav>
-   <div transition:name="frida" class="mt-10 bg-[url(./assets/Frida_cover.avif)] rounded-[20px] md:h-[80vh] h-100 bg-cover bg-center">
+   <div transition:name="frida" class="mt-10 bg-[url(/assets/Frida_cover.avif)] rounded-[20px] md:h-[80vh] h-100 bg-cover bg-center">
      <div onclick="history.go(-1)" class="md:pt-10 md:pl-10 pt-6 pl-6 hover:-translate-x-2 hover:transition-all hover:duration-500 hover:ease-in-out ">
         <svg  class=" w-[4.5rem] xs:w-auto" width="79" height="40" viewBox="0 0 79 40" fill="none" xmlns="http://www.w3.org/2000/svg">
        <rect x="0.7" y="0.7" width="77.6" height="38.6" rx="19.3" stroke="#F7F4EB" stroke-width="1.4"/>
